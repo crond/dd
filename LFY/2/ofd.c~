@@ -1,0 +1,9 @@
+#include<linux/module.h>
+#include<linux/version.h>
+#include<linux/kernel.h>
+
+static int __init ofd_init(void)
+{
+    printk(KERN_INFO "WELCOME: OFD Regostered");
+    return 0; 
+}
